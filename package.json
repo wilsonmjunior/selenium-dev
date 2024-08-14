@@ -1,0 +1,18 @@
+{
+  "name": "pupt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^127.0.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "playwright": "^1.46.0",
+    "puppeteer": "^23.0.2",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
